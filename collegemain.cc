@@ -19,6 +19,10 @@
 #include "node.h"
 #include "college.h"
 
+///@file collegemain.cc
+///@brief This is the main code
+///@email zc700015@ohio.edu
+
 using namespace std;
 
 // This function displays the menu and returns the user's choice

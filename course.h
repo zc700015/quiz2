@@ -7,6 +7,9 @@
 		John Dolan	School of EECS		Summer 2013
 ************************************************************************/
 
+///@file course.h
+///@brief This is the .h file for course
+///@email zc700015@ohio.edu
 #include<iostream>
 #include<string>
 #ifndef COURSE_H

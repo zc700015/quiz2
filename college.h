@@ -10,7 +10,9 @@
 #include <string>
 #include "course.h"
 #include "node.h"
-
+///@file college.h
+///@brief This is the .h file for college
+///@email zc700015@ohio.edu
 
 #ifndef COLLEGE_H
 #define COLLEGE_H

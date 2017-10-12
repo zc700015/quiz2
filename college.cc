@@ -4,6 +4,10 @@
 //CS 2401
 //10/8/2015
 //********************
+
+///@file college.c
+///@brief This is the source code for college
+///@email zc700015@ohio.edu
 #include "college.h"
 #include<cstdlib>
 #include<iostream>
@@ -69,6 +73,14 @@ College& College::operator =(const College& other){
 	return * this;
 }
 
+/**
+* @brief This is the function that is used to add thing
+* @param previous to point the previous one
+* @param cursor to point the next one
+* @param newnode a new node
+* @param tmpptr the current node
+* @return No return
+*/
 void College::add(course& c){
 	node * previous;
 	node * cursor;
@@ -107,6 +119,13 @@ void College::add(course& c){
 	}
 }
 
+/**
+* @brief This is the function that is used to remove thing
+* @param previous to point the previous one
+* @param cursor to point the next one
+* @param coursename the name of course
+* @return No return
+*/
 void College::remove(std::string coursename){
 	node * previous;	
 	node * cursor;
@@ -129,6 +148,11 @@ void College::remove(std::string coursename){
 }
 }
 
+/**
+* @brief This is the function that display all the things
+* @param head the first node
+* @return No return
+*/
 void College::display(std::ostream& outs){
 	node * ptr;
 	ptr = head;

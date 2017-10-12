@@ -7,6 +7,9 @@
 		Lab 7		Fall 2014
 	John Dolan			Ohio University 
 ********************************************************************/
+///@file tarray.h
+///@brief This is the .h file for tarray
+///@email zc700015@ohio.edu
 
 #include<iostream>
 

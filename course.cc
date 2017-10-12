@@ -3,6 +3,9 @@
 	course.
 		John Dolan		School of EECS		Summer2013
 **************************************************************************/
+///@file course.cc
+///@brief This is the source code for course
+///@email zc700015@ohio.edu
 #include "course.h"
 #include<cstdlib>
 #include<iostream>

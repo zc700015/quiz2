@@ -5,6 +5,9 @@
                 John Dolan  		March 2009
 *************************************************************************/
 
+///@file node.h
+///@brief This is the .h file for node
+///@email zc700015@ohio.edu
 #ifndef NODE_H
 #define NODE_H
 #include "course.h"
